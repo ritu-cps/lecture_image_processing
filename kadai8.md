@@ -18,7 +18,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 その結果を図2に示す．  
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai8_2.png?raw=true)  
-図2 濃度ヒストグラム
+図2 二値化した画像
 
 IMG = bwlabeln(IMG);  
 imagesc(IMG); colormap(jet); colorbar; % 画像の表示
@@ -27,4 +27,4 @@ imagesc(IMG); colormap(jet); colorbar; % 画像の表示
 その結果を図3に示す．  
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai8_3.png?raw=true)  
-図3 ディザ法で二値化した画像
+図3 ラベリングした画像
