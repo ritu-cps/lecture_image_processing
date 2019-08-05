@@ -36,4 +36,4 @@ end;
 その結果を図2に示す．
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai5_2.png?raw=true)  
-図2 ヒストグラム
+図2 判別分析法を用いた二値化画像
