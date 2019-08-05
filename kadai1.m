@@ -1,13 +1,12 @@
-
 % 課題１　標本化間隔と空間解像度
 % 画像をダウンサンプリングして（標本化間隔を大きくして）
-% 表示せよ．.
+% 表示せよ．
 % 下記はサンプルプログラムである．
 % 課題作成にあたっては「Lenna」以外の画像を用いよ．
 
 clear; % 変数のオールクリア
 
-ORG=imread('Lenna.png'); % 原画像の入力
+ORG=imread('http://abehiroshi.la.coocan.jp/abe-top-20190328-2.jpg'); % 原画像の入力
 imagesc(ORG); axis image; % 画像の表示
 pause; % 一時停止
 
