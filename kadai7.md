@@ -26,10 +26,10 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 これによって画素のダイナミックレンジを０から２５５に拡大でき,その結果と濃度ヒストグラムをそれぞれ図3,図4に示す．  
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai7_3.png?raw=true)  
-図3 ディザ法で二値化した画像
+図3 ダイナミックレンジを０から２５５に拡大した画像
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai7_4.png?raw=true)  
-図3 ディザ法で二値化した画像
+図4 濃度ヒストグラム
 
 #### ORG = uint8(ORG);の考察
 ```
