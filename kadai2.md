@@ -26,7 +26,7 @@ IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;  
 
-これによって~64,65~128,129~192,192~255の4階調に画像を生成した.
+これによって〜64,65〜128,129〜192,192〜255の4階調に画像を生成した.
 その結果を図3に示す．
 
 ![原画像](https://github.com/ritu-cps/lecture_image_processing/blob/master/image/kadai2_3.png?raw=true)  
